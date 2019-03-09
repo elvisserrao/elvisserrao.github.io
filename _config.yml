@@ -18,7 +18,7 @@ author: Elvis Serrão
 email: elvis.serrao1@gmail.com
 description: Compartilhar conhecimento é o melhor caminho.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://elvisserrao.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://elvisserrao.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  elvisserrao
 instagram_username: ehsj_serrao
 
