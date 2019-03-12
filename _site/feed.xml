@@ -1,4 +1,126 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-03-08T23:39:20-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ehsj | dev samurai</title><subtitle>Compartilhar conhecimento é o melhor caminho.</subtitle><author><name>Elvis Serrão</name></author><entry><title type="html">Olá, mundo!</title><link href="http://localhost:4000/ola-mundo" rel="alternate" type="text/html" title="Olá, mundo!" /><published>2019-03-08T22:07:00-03:00</published><updated>2019-03-08T22:07:00-03:00</updated><id>http://localhost:4000/ola-mundo</id><content type="html" xml:base="http://localhost:4000/ola-mundo">&lt;p&gt;Olá, este será meu espaço para compartilhar os conhecimentos e experiências a partir de agora.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-br"><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="pt-br" /><updated>2019-03-12T00:05:03-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ehsj | dev</title><subtitle>Compartilhar conhecimento é o melhor caminho.</subtitle><author><name>Elvis Serrão</name></author><entry><title type="html">Explorando a vulnerabilidade do WPS</title><link href="http://localhost:4000/explorando-vulnerabilidade-wps" rel="alternate" type="text/html" title="Explorando a vulnerabilidade do WPS" /><published>2019-03-11T22:50:00-03:00</published><updated>2019-03-11T22:50:00-03:00</updated><id>http://localhost:4000/explorando-vulnerabilidade-wps</id><content type="html" xml:base="http://localhost:4000/explorando-vulnerabilidade-wps">&lt;p&gt;Neste post, vou mostrar como realizar um teste de segurança em redes sem fio, que possuam o WPS ativo. Alguns roteadores possuem uma vulnerabilidade que nos permite realizar um ataque de brute force para encontrar o PIN WPS, uma vez identificado o PIN, é feita a autenticação e o roteador fornece a senha da rede wireless. Para realizar o teste, utilizei meu roteador e criei uma rede apenas para este fim, sendo que, realizar este procedimento em redes alheias não é permitido por lei, muito cuidado com isso!&lt;/p&gt;
+
+&lt;p&gt;Para realizar esse teste, configurei o seguinte ambiente:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.linuxmint.com/&quot;&gt;Linux Mint 18&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/wiire/pixiewps&quot;&gt;PixieWPS&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/t6x/reaver-wps-fork-t6x&quot;&gt;Reaver-wps-fork-t6x&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Bem, para começar, presumo que já esteja com o Mint instalado, então, pode começar a instalar as dependências para o Reaver e PixieWPS.&lt;/p&gt;
+
+&lt;p&gt;Instale os seguintes pacotes:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# apt-get -y install build-essential libpcap-dev aircrack-ng
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Depois de instalados os pacotes acima, pode instalar o Reaver e PixieWPS.&lt;/p&gt;
+
+&lt;h3 id=&quot;pixiewps&quot;&gt;PixieWPS&lt;/h3&gt;
+&lt;p&gt;Para fazer download do projeto, escolha utilizar um dos comandos abaixo:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ git clone https://github.com/wiire/pixiewps
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;ou&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ wget https://github.com/wiire/pixiewps/archive/master.zip &amp;amp;&amp;amp; unzip master.zip
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Feito o download, será preciso executar estes comandos:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ cd pixiewps*/
+$ cd src/
+$ make
+$ sudo make install
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;reaver&quot;&gt;Reaver&lt;/h3&gt;
+&lt;p&gt;Para fazer download do projeto, escolha utilizar um dos comandos abaixo:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ git clone https://github.com/t6x/reaver-wps-fork-t6x
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;ou&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ wget https://github.com/t6x/reaver-wps-fork-t6x/archive/master.zip &amp;amp;&amp;amp; unzip master.zip
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Feito o download, será preciso executar estes comandos:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ cd reaver-wps-fork-t6x*/
+$ cd src/
+$ ./configure
+$ make
+$ sudo make install
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Pronto!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;configurações-e-execução&quot;&gt;Configurações e execução&lt;/h3&gt;
+&lt;p&gt;Agora Vamos alterar o modo de funcionamento da interface wireless.&lt;/p&gt;
+
+&lt;p&gt;É necessário identificar a interface wireless, para isso, basta usar o comando:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ iwconfig
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;!-- ![wlp6s0](/assets/images/1.png &quot;wlp6s0&quot;)
+ --&gt;
+&lt;figure&gt;
+  &lt;img src=&quot;http://localhost:4000/assets/images/1.png&quot; alt=&quot; &quot; /&gt;
+  &lt;figcaption style=&quot;display: block; text-align: center;&quot;&gt;Neste caso, temos a wlp6s0 como interface wireless.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Após identificar a interface wireless, altere o modo de funcionamento para o modo “Monitor”, para isso utilize o comando:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# airmon-ng start wlp6s0
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://localhost:4000/assets/images/2.png&quot; alt=&quot; &quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Na saída do comando acima, esta descrito entre parenteses a informação de que foi habilitado o modo monitor na interface virtual “mon0”. Além disso, foram encontrados 5 processos que podem causar algum bug ao utilizar a interface em modo monitor, para garantir que não terá nenhum problema, esses processos devem ser encerrados, para isso basta usar o comando kill, seguido dos PID’s dos processos listados.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# kill 897 898 958 1192 1273
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Agora desabilite a interface wireless “wlp6s0”, para que não haja problemas ao identificar a rede alvo, com o comando:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# ifconfig wlp6s0 down
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://localhost:4000/assets/images/3.png&quot; alt=&quot; &quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Após ter encerrado os processos que podem causar problemas no funcionamento do airmon-ng e desabilitar a interface wireless que não será utilizada, vamos ao próximo passo, localizar a rede alvo. Para isso, utilize o comando “wash” que lista somente redes com WPS ativo.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# wash -i mon0
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://localhost:4000/assets/images/4.png&quot; alt=&quot; &quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Identificada a rede alvo, passe os parâmetros necessários para executar o Reaver e PixieWPS, com o seguinte comando:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# reaver -i mon0 -b E8:CC:18:BE:01:AC -c 6 -vvv -K 1
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://localhost:4000/assets/images/5.png&quot; alt=&quot; &quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Os parâmetros passados foram: -i {interface wireless} -b {MAC Adress alvo} -c {Canal de trasmissão}. Os dois últimos, são “-vvv” para ativar o modo verbose, para exibir todas as mensagens de cada etapa do processo e -K 1 que faz com que o Reaver passe os dados referentes ao PKE, PKR, e-hash1 e e-hash2 automaticamente, o pixieWPS fará um brute force “off-line”, evitando que o roteador alvo, bloqueie a conexão por meio do WPS após algumas tentativas, dessa forma serão testados todos os PIN’s. Por rodar o brute force com os dados coletados pelo Reaver, não há necessidade de a cada tentativa fazer a comunicação com o alvo, reduzindo drasticamente o tempo necessário para que o PIN seja encontrado, o tempo necessário em média, não supera os 30 minutos, porém a depender da capacidade de processamento do seu computador, esse tempo pode variar.&lt;/p&gt;
+
+&lt;p&gt;Vale lembrar que não são todos os roteadores que possuem essa vulnerabilidade, neste link, há uma lista de dispositivos vulneráveis. Outras distribuições Debian Based são compatíveis com esse tutorial.&lt;/p&gt;
+
+&lt;p&gt;P.S.: Realizei esse teste num roteador de minha propriedade, configurado para este fim. Não utilizem este conhecimento para testar em redes na quais não tenham autorização para tal.&lt;/p&gt;</content><author><name>Elvis Serrão</name></author><summary type="html">Neste post, vou mostrar como realizar um teste de segurança em redes sem fio, que possuam o WPS ativo. Alguns roteadores possuem uma vulnerabilidade que nos permite realizar um ataque de brute force para encontrar o PIN WPS, uma vez identificado o PIN, é feita a autenticação e o roteador fornece a senha da rede wireless. Para realizar o teste, utilizei meu roteador e criei uma rede apenas para este fim, sendo que, realizar este procedimento em redes alheias não é permitido por lei, muito cuidado com isso!</summary></entry><entry><title type="html">Olá, mundo!</title><link href="http://localhost:4000/ola-mundo" rel="alternate" type="text/html" title="Olá, mundo!" /><published>2019-03-08T22:07:00-03:00</published><updated>2019-03-08T22:07:00-03:00</updated><id>http://localhost:4000/ola-mundo</id><content type="html" xml:base="http://localhost:4000/ola-mundo">&lt;p&gt;Olá, este será meu espaço para compartilhar os conhecimentos e experiências a partir de agora.&lt;/p&gt;
 
 &lt;p&gt;Este é o meu perfil no &lt;a href=&quot;https://github.com/elvisserrao&quot;&gt;GitHub&lt;/a&gt;, onde estarão os meus projetos, fiquem a vontade para conhecer um pouco mais sobre cada um deles. :)&lt;/p&gt;
 
