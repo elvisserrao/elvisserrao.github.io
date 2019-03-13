@@ -6,17 +6,17 @@ date:   2019-03-11 22:50:00 -0300
 
 
 
-Neste post, vou mostrar como realizar um teste de segurança em redes sem fio, que possuam o WPS ativo. Alguns roteadores possuem uma vulnerabilidade que nos permite realizar um ataque de brute force para encontrar o PIN WPS, uma vez identificado o PIN, é feita a autenticação e o roteador fornece a senha da rede wireless. Para realizar o teste, utilizei meu roteador e criei uma rede apenas para este fim, sendo que, realizar este procedimento em redes alheias não é permitido por lei, muito cuidado com isso!
+Neste post, vou mostrar como realizar um teste de segurança em redes sem fio, que possuam o WPS ativo. Alguns roteadores possuem uma vulnerabilidade que permite realizar um ataque de brute force para encontrar o PIN WPS, uma vez identificado o PIN, é feita a autenticação, e então, temos acesso a senha da rede wireless. Para realizar o teste, utilizei meu roteador e criei uma rede apenas para este fim.
 
-Para realizar esse teste, configurei o seguinte ambiente:
+Para realizar esse teste, utilizei:
 
-[Linux Mint 18](https://www.linuxmint.com/)
+[Linux Mint](https://www.linuxmint.com/)
 
 [PixieWPS](https://github.com/wiire/pixiewps)
 
 [Reaver-wps-fork-t6x](https://github.com/t6x/reaver-wps-fork-t6x)
 
-Bem, para começar, presumo que já esteja com o Mint instalado, então, pode começar a instalar as dependências para o Reaver e PixieWPS.
+Para começar,é necessário instalar as dependências para o Reaver e PixieWPS.
 
 Instale os seguintes pacotes:
 
@@ -68,9 +68,7 @@ Agora Vamos alterar o modo de funcionamento da interface wireless.
 
 	$ iwconfig
 
-<!-- ![wlp6s0](/assets/images/1.png "wlp6s0")
- -->
- <figure>
+<figure>
   <img src="{{site.url}}/assets/images/1.png" alt=" "/>
   <figcaption style="display: block; text-align: center;">Neste caso, temos a wlp6s0 como interface wireless.</figcaption>
 </figure>
@@ -83,7 +81,9 @@ Após identificar a interface wireless, altere o modo de funcionamento para o mo
   <img src="{{site.url}}/assets/images/2.png" alt=" "/>
 </figure>
 
-Na saída do comando acima, esta descrito entre parenteses a informação de que foi habilitado o modo monitor na interface virtual “mon0”. Além disso, foram encontrados 5 processos que podem causar algum bug ao utilizar a interface em modo monitor, para garantir que não terá nenhum problema, esses processos devem ser encerrados, para isso basta usar o comando kill, seguido dos PID’s dos processos listados.
+Na saída do comando acima, está descrito entre parenteses a informação de que foi habilitado o modo monitor na interface virtual “mon0”. Além disso, foram encontrados 5 processos que podem causar algum bug ao utilizar a interface em modo monitor, para garantir que não terá nenhum problema, esses processos devem ser encerrados, para isso basta usar o comando kill, seguido dos PID’s dos processos listados.
+
+Neste caso:
 
 	# kill 897 898 958 1192 1273
 
@@ -111,8 +111,13 @@ Identificada a rede alvo, passe os parâmetros necessários para executar o Reav
   <img src="{{site.url}}/assets/images/5.png" alt=" "/>
 </figure>
 
-Os parâmetros passados foram: -i {interface wireless} -b {MAC Adress alvo} -c {Canal de trasmissão}. Os dois últimos, são “-vvv” para ativar o modo verbose, para exibir todas as mensagens de cada etapa do processo e -K 1 que faz com que o Reaver passe os dados referentes ao PKE, PKR, e-hash1 e e-hash2 automaticamente, o pixieWPS fará um brute force “off-line”, evitando que o roteador alvo, bloqueie a conexão por meio do WPS após algumas tentativas, dessa forma serão testados todos os PIN’s. Por rodar o brute force com os dados coletados pelo Reaver, não há necessidade de a cada tentativa fazer a comunicação com o alvo, reduzindo drasticamente o tempo necessário para que o PIN seja encontrado, o tempo necessário em média, não supera os 30 minutos, porém a depender da capacidade de processamento do seu computador, esse tempo pode variar.
+Os parâmetros passados foram: 
+- -i {interface wireless} 
+- -b {MAC Adress alvo} 
+- -c {Canal de trasmissão}
 
-Vale lembrar que não são todos os roteadores que possuem essa vulnerabilidade, neste link, há uma lista de dispositivos vulneráveis. Outras distribuições Debian Based são compatíveis com esse tutorial.
+ Os dois últimos, são “-vvv” para ativar o modo verbose, para exibir todas as mensagens de cada etapa do processo e -K 1 que faz com que o Reaver passe os dados referentes ao PKE, PKR, e-hash1 e e-hash2 automaticamente, o pixieWPS fará um brute force “off-line”, evitando que o roteador alvo bloqueie a conexão por meio do WPS após algumas tentativas, dessa forma serão testados todos os PIN’s. Por rodar o brute force com os dados coletados pelo Reaver, não há necessidade de a cada tentativa fazer a comunicação com o alvo, reduzindo drasticamente o tempo necessário para que o PIN seja encontrado, o tempo necessário em média, não supera os 30 minutos, porém a depender da capacidade de processamento do seu computador, esse tempo pode variar.
 
-P.S.: Realizei esse teste num roteador de minha propriedade, configurado para este fim. Não utilizem este conhecimento para testar em redes na quais não tenham autorização para tal.
+Vale lembrar que não são todos os roteadores que possuem essa vulnerabilidade, [neste link](https://docs.google.com/spreadsheets/d/1tSlbqVQ59kGn8hgmwcPTHUECQ3o9YhXR91A_p7Nnj5Y/edit?pref=2&pli=1#gid=2048815923), há uma lista de dispositivos vulneráveis.
+
+P.S.: Realizei esse teste em um roteador de minha propriedade, configurado para este fim. Não utilizem este conhecimento para testar em redes nas quais não tenham autorização para tal.

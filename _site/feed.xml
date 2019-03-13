@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-br"><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="pt-br" /><updated>2019-03-12T00:05:03-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ehsj | dev</title><subtitle>Compartilhar conhecimento é o melhor caminho.</subtitle><author><name>Elvis Serrão</name></author><entry><title type="html">Explorando a vulnerabilidade do WPS</title><link href="http://localhost:4000/explorando-vulnerabilidade-wps" rel="alternate" type="text/html" title="Explorando a vulnerabilidade do WPS" /><published>2019-03-11T22:50:00-03:00</published><updated>2019-03-11T22:50:00-03:00</updated><id>http://localhost:4000/explorando-vulnerabilidade-wps</id><content type="html" xml:base="http://localhost:4000/explorando-vulnerabilidade-wps">&lt;p&gt;Neste post, vou mostrar como realizar um teste de segurança em redes sem fio, que possuam o WPS ativo. Alguns roteadores possuem uma vulnerabilidade que nos permite realizar um ataque de brute force para encontrar o PIN WPS, uma vez identificado o PIN, é feita a autenticação e o roteador fornece a senha da rede wireless. Para realizar o teste, utilizei meu roteador e criei uma rede apenas para este fim, sendo que, realizar este procedimento em redes alheias não é permitido por lei, muito cuidado com isso!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-br"><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="pt-br" /><updated>2019-03-13T00:43:37-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ehsj | dev</title><subtitle>Compartilhar conhecimento é o melhor caminho.</subtitle><author><name>Elvis Serrão</name></author><entry><title type="html">Explorando a vulnerabilidade do WPS</title><link href="http://localhost:4000/explorando-vulnerabilidade-wps" rel="alternate" type="text/html" title="Explorando a vulnerabilidade do WPS" /><published>2019-03-11T22:50:00-03:00</published><updated>2019-03-11T22:50:00-03:00</updated><id>http://localhost:4000/explorando-vulnerabilidade-wps</id><content type="html" xml:base="http://localhost:4000/explorando-vulnerabilidade-wps">&lt;p&gt;Neste post, vou mostrar como realizar um teste de segurança em redes sem fio, que possuam o WPS ativo. Alguns roteadores possuem uma vulnerabilidade que permite realizar um ataque de brute force para encontrar o PIN WPS, uma vez identificado o PIN, é feita a autenticação, e então, temos acesso a senha da rede wireless. Para realizar o teste, utilizei meu roteador e criei uma rede apenas para este fim.&lt;/p&gt;
 
-&lt;p&gt;Para realizar esse teste, configurei o seguinte ambiente:&lt;/p&gt;
+&lt;p&gt;Para realizar esse teste, utilizei:&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://www.linuxmint.com/&quot;&gt;Linux Mint 18&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.linuxmint.com/&quot;&gt;Linux Mint&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/wiire/pixiewps&quot;&gt;PixieWPS&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/t6x/reaver-wps-fork-t6x&quot;&gt;Reaver-wps-fork-t6x&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Bem, para começar, presumo que já esteja com o Mint instalado, então, pode começar a instalar as dependências para o Reaver e PixieWPS.&lt;/p&gt;
+&lt;p&gt;Para começar,é necessário instalar as dependências para o Reaver e PixieWPS.&lt;/p&gt;
 
 &lt;p&gt;Instale os seguintes pacotes:&lt;/p&gt;
 
@@ -68,8 +68,6 @@ $ sudo make install
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ iwconfig
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;!-- ![wlp6s0](/assets/images/1.png &quot;wlp6s0&quot;)
- --&gt;
 &lt;figure&gt;
   &lt;img src=&quot;http://localhost:4000/assets/images/1.png&quot; alt=&quot; &quot; /&gt;
   &lt;figcaption style=&quot;display: block; text-align: center;&quot;&gt;Neste caso, temos a wlp6s0 como interface wireless.&lt;/figcaption&gt;
@@ -84,7 +82,9 @@ $ sudo make install
   &lt;img src=&quot;http://localhost:4000/assets/images/2.png&quot; alt=&quot; &quot; /&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;Na saída do comando acima, esta descrito entre parenteses a informação de que foi habilitado o modo monitor na interface virtual “mon0”. Além disso, foram encontrados 5 processos que podem causar algum bug ao utilizar a interface em modo monitor, para garantir que não terá nenhum problema, esses processos devem ser encerrados, para isso basta usar o comando kill, seguido dos PID’s dos processos listados.&lt;/p&gt;
+&lt;p&gt;Na saída do comando acima, está descrito entre parenteses a informação de que foi habilitado o modo monitor na interface virtual “mon0”. Além disso, foram encontrados 5 processos que podem causar algum bug ao utilizar a interface em modo monitor, para garantir que não terá nenhum problema, esses processos devem ser encerrados, para isso basta usar o comando kill, seguido dos PID’s dos processos listados.&lt;/p&gt;
+
+&lt;p&gt;Neste caso:&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# kill 897 898 958 1192 1273
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -116,11 +116,18 @@ $ sudo make install
   &lt;img src=&quot;http://localhost:4000/assets/images/5.png&quot; alt=&quot; &quot; /&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;Os parâmetros passados foram: -i {interface wireless} -b {MAC Adress alvo} -c {Canal de trasmissão}. Os dois últimos, são “-vvv” para ativar o modo verbose, para exibir todas as mensagens de cada etapa do processo e -K 1 que faz com que o Reaver passe os dados referentes ao PKE, PKR, e-hash1 e e-hash2 automaticamente, o pixieWPS fará um brute force “off-line”, evitando que o roteador alvo, bloqueie a conexão por meio do WPS após algumas tentativas, dessa forma serão testados todos os PIN’s. Por rodar o brute force com os dados coletados pelo Reaver, não há necessidade de a cada tentativa fazer a comunicação com o alvo, reduzindo drasticamente o tempo necessário para que o PIN seja encontrado, o tempo necessário em média, não supera os 30 minutos, porém a depender da capacidade de processamento do seu computador, esse tempo pode variar.&lt;/p&gt;
+&lt;p&gt;Os parâmetros passados foram:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;-i {interface wireless}&lt;/li&gt;
+  &lt;li&gt;-b {MAC Adress alvo}&lt;/li&gt;
+  &lt;li&gt;-c {Canal de trasmissão}&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;Vale lembrar que não são todos os roteadores que possuem essa vulnerabilidade, neste link, há uma lista de dispositivos vulneráveis. Outras distribuições Debian Based são compatíveis com esse tutorial.&lt;/p&gt;
+&lt;p&gt;Os dois últimos, são “-vvv” para ativar o modo verbose, para exibir todas as mensagens de cada etapa do processo e -K 1 que faz com que o Reaver passe os dados referentes ao PKE, PKR, e-hash1 e e-hash2 automaticamente, o pixieWPS fará um brute force “off-line”, evitando que o roteador alvo bloqueie a conexão por meio do WPS após algumas tentativas, dessa forma serão testados todos os PIN’s. Por rodar o brute force com os dados coletados pelo Reaver, não há necessidade de a cada tentativa fazer a comunicação com o alvo, reduzindo drasticamente o tempo necessário para que o PIN seja encontrado, o tempo necessário em média, não supera os 30 minutos, porém a depender da capacidade de processamento do seu computador, esse tempo pode variar.&lt;/p&gt;
 
-&lt;p&gt;P.S.: Realizei esse teste num roteador de minha propriedade, configurado para este fim. Não utilizem este conhecimento para testar em redes na quais não tenham autorização para tal.&lt;/p&gt;</content><author><name>Elvis Serrão</name></author><summary type="html">Neste post, vou mostrar como realizar um teste de segurança em redes sem fio, que possuam o WPS ativo. Alguns roteadores possuem uma vulnerabilidade que nos permite realizar um ataque de brute force para encontrar o PIN WPS, uma vez identificado o PIN, é feita a autenticação e o roteador fornece a senha da rede wireless. Para realizar o teste, utilizei meu roteador e criei uma rede apenas para este fim, sendo que, realizar este procedimento em redes alheias não é permitido por lei, muito cuidado com isso!</summary></entry><entry><title type="html">Olá, mundo!</title><link href="http://localhost:4000/ola-mundo" rel="alternate" type="text/html" title="Olá, mundo!" /><published>2019-03-08T22:07:00-03:00</published><updated>2019-03-08T22:07:00-03:00</updated><id>http://localhost:4000/ola-mundo</id><content type="html" xml:base="http://localhost:4000/ola-mundo">&lt;p&gt;Olá, este será meu espaço para compartilhar os conhecimentos e experiências a partir de agora.&lt;/p&gt;
+&lt;p&gt;Vale lembrar que não são todos os roteadores que possuem essa vulnerabilidade, &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1tSlbqVQ59kGn8hgmwcPTHUECQ3o9YhXR91A_p7Nnj5Y/edit?pref=2&amp;amp;pli=1#gid=2048815923&quot;&gt;neste link&lt;/a&gt;, há uma lista de dispositivos vulneráveis.&lt;/p&gt;
+
+&lt;p&gt;P.S.: Realizei esse teste em um roteador de minha propriedade, configurado para este fim. Não utilizem este conhecimento para testar em redes nas quais não tenham autorização para tal.&lt;/p&gt;</content><author><name>Elvis Serrão</name></author><summary type="html">Neste post, vou mostrar como realizar um teste de segurança em redes sem fio, que possuam o WPS ativo. Alguns roteadores possuem uma vulnerabilidade que permite realizar um ataque de brute force para encontrar o PIN WPS, uma vez identificado o PIN, é feita a autenticação, e então, temos acesso a senha da rede wireless. Para realizar o teste, utilizei meu roteador e criei uma rede apenas para este fim.</summary></entry><entry><title type="html">Olá, mundo!</title><link href="http://localhost:4000/ola-mundo" rel="alternate" type="text/html" title="Olá, mundo!" /><published>2019-03-08T22:07:00-03:00</published><updated>2019-03-08T22:07:00-03:00</updated><id>http://localhost:4000/ola-mundo</id><content type="html" xml:base="http://localhost:4000/ola-mundo">&lt;p&gt;Olá, este será meu espaço para compartilhar os conhecimentos e experiências a partir de agora.&lt;/p&gt;
 
 &lt;p&gt;Este é o meu perfil no &lt;a href=&quot;https://github.com/elvisserrao&quot;&gt;GitHub&lt;/a&gt;, onde estarão os meus projetos, fiquem a vontade para conhecer um pouco mais sobre cada um deles. :)&lt;/p&gt;
 
