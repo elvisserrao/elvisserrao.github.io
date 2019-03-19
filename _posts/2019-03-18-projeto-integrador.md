@@ -6,7 +6,7 @@ date:   2019-03-18 19:00:00 -0300
 
 
 
-## Touristing SSA
+## Turistando SSA
 
 Aplicação pensada para guiar ou auxiliar a identificação de pontos de interesse, monumentos e pontos turísticos. Com sugestões de programas diários de passeios e identificação dos locais de interesse para turistas.
 
