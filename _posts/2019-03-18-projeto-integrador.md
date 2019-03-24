@@ -39,12 +39,10 @@ Inicialmente o projeto será desenvolvido com foco na iniciativa pública-privad
 #### É um problema ou uma necessidade?
 
 - Ele resolve um problema e faz algo para um consumidor final ou uma
-empresa (software de contabilidade, elevadores, ar condicionado, ele-
-tricidade, tablets, escova de dentes elétrica, aviões, software de e-mail
+empresa (software de contabilidade, elevadores, ar condicionado, eletricidade, tablets, escova de dentes elétrica, aviões, software de e-mail
 etc.)
 - Ou ele satisfaz uma necessidade social humana fundamental (amizade,
-encontro, diversão, arte, comunicação, blogs, confissão, networ-
-king, jogos, religião etc.)
+encontro, diversão, arte, comunicação, blogs, confissão, networking, jogos, religião etc.)
 
 
 #### Para Empresas + Consumidor Final
