@@ -50,13 +50,10 @@ king, jogos, religião etc.)
 #### Para Empresas + Consumidor Final
 
 Nesse caso nosso produto resolve tanto uma necessidade para o consumidor
-final quanto para empresas. Normalmente esse tipo de produto não tem ne-
-nhum custo para o consumidor final. Quem paga a conta são as empresas. O
-modelo mais comum de geração de receita nesse tipo de produto é o anún-
-cio, pago pela empresa quando o consumidor final vê o anúncio ou clica no
+final quanto para empresas. Normalmente esse tipo de produto não tem nenhum custo para o consumidor final. Quem paga a conta são as empresas. O
+modelo mais comum de geração de receita nesse tipo de produto é o anúncio, pago pela empresa quando o consumidor final vê o anúncio ou clica no
 anúncio ou compra algo a partir do anúncio. Alguns exemplos são Buscapé,
-Mercado Livre, Google Search + Google AdWords, UOL Conteúdo + anún-
-cios.
+Mercado Livre, Google Search + Google AdWords, UOL Conteúdo + anúncios.
 
 #### Objetivo
 
