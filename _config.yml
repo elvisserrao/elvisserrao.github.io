@@ -22,7 +22,7 @@ url: "https://elvisserrao.github.io" # the base hostname & protocol for your sit
 github_username:  elvisserrao
 instagram_username: ehsj_serrao
 lang: pt-br
-google-analytics: UA-137390428-1
+google_analytics: UA-137390428-1
 
 # Build settings
 markdown: kramdown
