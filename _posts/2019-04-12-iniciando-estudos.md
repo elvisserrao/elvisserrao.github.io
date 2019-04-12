@@ -31,9 +31,9 @@ Aprenda os fundamentos de como a web funciona e obtenha conhecimento prático da
 
 ###	Desenvolvedor Web Full-Stack
 
-This program will prepare you for a job as a Full Stack Web Developer, and teach you to build complex server-side web applications that use powerful relational databases to persistently store data.
+Esta série de cursos irá te preparar para trabalhar como um Desenvolvedor Full-Stack, te ensinará a criar [aplicações web server-side](https://en.wikipedia.org/wiki/Server-side_scripting) que utilizarão poderosos bancos de dados relacionais para armazenar dados persistentes.
 
-You’ll learn to build applications that can support any front-end, and scale to support hundreds of thousands of users.
+Você aprenderá a criar aplicações que podem ser utitlizadas por qualquer front-end e escalável para suportar centenas de milhares de usuários.
 
 #### Part 1: Developer Tools    
 [Shell WorkShop](https://www.udacity.com/course/shell-workshop--ud206)    
