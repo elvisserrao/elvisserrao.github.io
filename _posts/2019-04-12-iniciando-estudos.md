@@ -8,7 +8,9 @@ date:   2019-04-12 14:00:00 -0300
 
 O mundo da tecnologia é fascinante e desafiador, vive em constante transformação e a cada dia surgem novas tecnologias e isso é ótimo! Mas, talvez para quem está iniciando, pode ser assustador e desanimador a quantidade de informações e tecnologias que se deve aprender, eu mesmo tive essa sensação em diversos momentos, por mais que eu estivesse estudando e aprendendo sobre algo novo, parecia que não havia evolução, pois a cada aprendizado abria-se um leque de novos assuntos e conceitos que faziam com que o objetivo parecesse sempre distante. Bom, ninguém disse que seria fácil. 
 
-Senti dificuldade de encontrar um 'guia' para saber o que deveria estudar ou quais habilidades precisaria desenvolver, por isso resolvi escrever aqui sobre o que encontrei e que tem me ajudade nessa jornada de estudos.
+Senti dificuldade de encontrar um 'guia' para saber o que deveria estudar ou quais habilidades precisaria desenvolver, por isso resolvi escrever aqui sobre o que encontrei e que tem me ajudade nessa jornada de estudos. E o mais incrível de tudo, todos grátis!!! 
+
+Outro detalhe é que todos os conteúdos listados abaixo, estão em inglês, o que para mim é algo positivo, pois é uma forma de praticar e estar imerso no idioma que é indispensável nesta área e em muitas outras.
 
 ### Desenvolvedor Web Front-End
 
