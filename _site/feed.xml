@@ -1,4 +1,65 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-br"><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="pt-br" /><updated>2019-04-03T11:03:01-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ehsj | dev</title><subtitle>Entregue seu caminho ao Senhor, confie nele e o mais Ele fará. (Salmos 37:5)</subtitle><author><name>Elvis Serrão</name></author><entry><title type="html">uTour SSA</title><link href="http://localhost:4000/uTour-SSA" rel="alternate" type="text/html" title="uTour SSA" /><published>2019-03-27T19:00:00-03:00</published><updated>2019-03-27T19:00:00-03:00</updated><id>http://localhost:4000/uTour-SSA</id><content type="html" xml:base="http://localhost:4000/uTour-SSA">&lt;h2 id=&quot;utour-ssa&quot;&gt;uTour SSA&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-br"><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="pt-br" /><updated>2019-04-12T14:29:31-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ehsj | dev</title><subtitle>Entregue seu caminho ao Senhor, confie nele e o mais Ele fará. (Salmos 37:5)</subtitle><author><name>Elvis Serrão</name></author><entry><title type="html">Como utilizar o ZSH</title><link href="http://localhost:4000/como-utilizar-o-ZSH" rel="alternate" type="text/html" title="Como utilizar o ZSH" /><published>2019-04-20T19:00:00-03:00</published><updated>2019-04-20T19:00:00-03:00</updated><id>http://localhost:4000/como-utilizar-o-ZSH</id><content type="html" xml:base="http://localhost:4000/como-utilizar-o-ZSH">&lt;h1 id=&quot;zsh&quot;&gt;ZSH&lt;/h1&gt;
+
+&lt;h1 id=&quot;oh-my-zsh&quot;&gt;Oh-my-zsh&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/robbyrussell/oh-my-zsh&quot;&gt;Oh-my-zsh&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/robbyrussell/oh-my-zsh/wiki/themes&quot;&gt;Temas&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;zsh-syntax-highlighting&quot;&gt;zsh-syntax-highlighting&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md&quot;&gt;zsh-syntax-highlighting&lt;/a&gt;&lt;/p&gt;</content><author><name>Elvis Serrão</name></author><summary type="html">ZSH</summary></entry><entry><title type="html">Iniciando os estudos</title><link href="http://localhost:4000/iniciando-estudos" rel="alternate" type="text/html" title="Iniciando os estudos" /><published>2019-04-12T14:00:00-03:00</published><updated>2019-04-12T14:00:00-03:00</updated><id>http://localhost:4000/iniciando-estudos</id><content type="html" xml:base="http://localhost:4000/iniciando-estudos">&lt;h2 id=&quot;por-onde-começar&quot;&gt;Por onde começar&lt;/h2&gt;
+
+&lt;p&gt;O mundo da tecnologia é fascinante e desafiador, vive em constante transformação e a cada dia surgem novas tecnologias e isso é ótimo! Mas, talvez para quem está iniciando, pode ser assustador e desanimador a quantidade de informações e tecnologias que se deve aprender, eu mesmo tive essa sensação em diversos momentos, por mais que eu estivesse estudando e aprendendo sobre algo novo, parecia que não havia evolução, pois a cada aprendizado abria-se um leque de novos assuntos e conceitos que faziam com que o objetivo parecesse sempre distante. Bom, ninguém disse que seria fácil.&lt;/p&gt;
+
+&lt;p&gt;Senti dificuldade de encontrar um ‘guia’ para saber o que deveria estudar ou quais habilidades precisaria desenvolver, por isso resolvi escrever aqui sobre o que encontrei e que tem me ajudade nessa jornada de estudos.&lt;/p&gt;
+
+&lt;h3 id=&quot;desenvolvedor-web-front-end&quot;&gt;Desenvolvedor Web Front-End&lt;/h3&gt;
+
+&lt;p&gt;Domine as habilidades necessárias para se tornar um Desenvolvedor Web Front-End, e comece a criar websites bonitos, responsivos, otimizados para dispositivos movéis e desktops.&lt;/p&gt;
+
+&lt;p&gt;Aprenda os fundamentos de como a web funciona e obtenha conhecimento prático das três linguagens fundamentais que fazem parte de todo e cada website: HTML, CSS and JavaScript.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.udacity.com/course/intro-to-html-and-css--ud304&quot;&gt;Intro to HTML and CSS&lt;/a&gt;  &lt;br /&gt;
+&lt;a href=&quot;https://www.udacity.com/course/responsive-web-design-fundamentals--ud893&quot;&gt;Responsive Web Design Fundamentals&lt;/a&gt;  &lt;br /&gt;
+&lt;a href=&quot;https://www.udacity.com/course/responsive-images--ud882&quot;&gt;Responsive Images&lt;/a&gt;  &lt;br /&gt;
+&lt;a href=&quot;https://www.udacity.com/course/javascript-basics--ud804&quot;&gt;JavaScript Basics&lt;/a&gt;  &lt;br /&gt;
+&lt;a href=&quot;https://www.udacity.com/course/intro-to-jquery--ud245&quot;&gt;Intro to jQuery&lt;/a&gt;  &lt;br /&gt;
+&lt;a href=&quot;https://www.udacity.com/course/object-oriented-javascript--ud015&quot;&gt;Object-Oriented JavaScript&lt;/a&gt;  &lt;br /&gt;
+&lt;a href=&quot;https://www.udacity.com/course/html5-canvas--ud292&quot;&gt;HTML5 Canvas&lt;/a&gt;  &lt;br /&gt;
+&lt;a href=&quot;https://www.udacity.com/course/website-performance-optimization--ud884&quot;&gt;Website Performance Optimization&lt;/a&gt;  &lt;br /&gt;
+&lt;a href=&quot;https://www.udacity.com/course/browser-rendering-optimization--ud860&quot;&gt;Browser Rendering Optimization&lt;/a&gt;  &lt;br /&gt;
+&lt;a href=&quot;https://www.udacity.com/course/intro-to-ajax--ud110&quot;&gt;Intro to AJAX&lt;/a&gt;  &lt;br /&gt;
+&lt;a href=&quot;https://www.udacity.com/course/javascript-design-patterns--ud989&quot;&gt;JavaScript Design Patterns&lt;/a&gt;  &lt;br /&gt;
+&lt;a href=&quot;https://www.udacity.com/course/javascript-testing--ud549&quot;&gt;JavaScript Testing&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;desenvolvedor-web-full-stack&quot;&gt;Desenvolvedor Web Full-Stack&lt;/h3&gt;
+
+&lt;p&gt;This program will prepare you for a job as a Full Stack Web Developer, and teach you to build complex server-side web applications that use powerful relational databases to persistently store data.&lt;/p&gt;
+
+&lt;p&gt;You’ll learn to build applications that can support any front-end, and scale to support hundreds of thousands of users.&lt;/p&gt;
+
+&lt;h4 id=&quot;part-1-developer-tools&quot;&gt;Part 1: Developer Tools&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.udacity.com/course/shell-workshop--ud206&quot;&gt;Shell WorkShop&lt;/a&gt;  &lt;br /&gt;
+Git &amp;amp; Github - &lt;a href=&quot;https://www.udacity.com/course/how-to-use-git-and-github--ud775&quot;&gt;Part 1&lt;/a&gt;, &lt;a href=&quot;https://www.udacity.com/course/github-collaboration--ud456&quot;&gt;Part 2&lt;/a&gt;  &lt;br /&gt;
+&lt;a href=&quot;https://www.udacity.com/course/http-web-servers--ud303&quot;&gt;HTTP &amp;amp; Webservers&lt;/a&gt;  &lt;br /&gt;
+&lt;a href=&quot;https://www.udacity.com/course/networking-for-web-developers--ud256&quot;&gt;Networking For Developers&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;part-2-databases-with-sql--python&quot;&gt;Part 2: Databases with SQL &amp;amp; Python&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.udacity.com/course/intro-to-relational-databases--ud197&quot;&gt;Intro to Relational Databases&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;part-3-servers-authorization-and-crud&quot;&gt;Part 3: Servers, Authorization, and CRUD&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.udacity.com/course/full-stack-foundations--ud088&quot;&gt;Full Stack Foundations&lt;/a&gt;  &lt;br /&gt;
+&lt;a href=&quot;https://www.udacity.com/course/authentication-authorization-oauth--ud330&quot;&gt;Authentication &amp;amp; Authorization&lt;/a&gt;  &lt;br /&gt;
+&lt;a href=&quot;https://www.udacity.com/course/designing-restful-apis--ud388&quot;&gt;RESTful APIs&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;part-4-deploying-to-linux-servers&quot;&gt;Part 4: Deploying to Linux Servers&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.udacity.com/course/configuring-linux-web-servers--ud299&quot;&gt;Configuring Linux Web Servers&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;extracurricular-material&quot;&gt;Extracurricular Material&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.udacity.com/course/web-accessibility--ud891&quot;&gt;Web Accessibility&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;https://www.udacity.com/course/javascript-design-patterns--ud989&quot;&gt;Javascript Design Patterns&lt;/a&gt;  &lt;br /&gt;
+&lt;a href=&quot;https://www.udacity.com/course/intro-to-ajax--ud110&quot;&gt;Intro to AJAX&lt;/a&gt;&lt;/p&gt;</content><author><name>Elvis Serrão</name></author><summary type="html">Por onde começar</summary></entry><entry><title type="html">uTour SSA</title><link href="http://localhost:4000/uTour-SSA" rel="alternate" type="text/html" title="uTour SSA" /><published>2019-03-27T19:00:00-03:00</published><updated>2019-03-27T19:00:00-03:00</updated><id>http://localhost:4000/uTour-SSA</id><content type="html" xml:base="http://localhost:4000/uTour-SSA">&lt;h2 id=&quot;utour-ssa&quot;&gt;uTour SSA&lt;/h2&gt;
 
 &lt;p&gt;Aplicação pensada para guiar ou auxiliar a identificação de pontos de interesse, monumentos e pontos turísticos. Com sugestões de programas diários de passeios e identificação dos locais de interesse para turistas, através do uso de IA.&lt;/p&gt;
 

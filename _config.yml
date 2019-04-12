@@ -21,8 +21,10 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://elvisserrao.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  elvisserrao
 instagram_username: ehsj_serrao
-lang: pt-br
+lang: pt-br # default language of website
 google_analytics: UA-137390428-1
+future: false # allow tho show future posts
+
 
 # Build settings
 markdown: kramdown
