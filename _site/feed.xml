@@ -1,8 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-br"><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="pt-br" /><updated>2019-04-12T14:38:56-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ehsj | dev</title><subtitle>Entregue seu caminho ao Senhor, confie nele e o mais Ele fará. (Salmos 37:5)</subtitle><author><name>Elvis Serrão</name></author><entry><title type="html">Iniciando os estudos</title><link href="http://localhost:4000/iniciando-estudos" rel="alternate" type="text/html" title="Iniciando os estudos" /><published>2019-04-12T14:00:00-03:00</published><updated>2019-04-12T14:00:00-03:00</updated><id>http://localhost:4000/iniciando-estudos</id><content type="html" xml:base="http://localhost:4000/iniciando-estudos">&lt;h2 id=&quot;por-onde-começar&quot;&gt;Por onde começar&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-br"><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="pt-br" /><updated>2019-04-12T16:15:37-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ehsj | dev</title><subtitle>Entregue seu caminho ao Senhor, confie nele e o mais Ele fará. (Salmos 37:5)</subtitle><author><name>Elvis Serrão</name></author><entry><title type="html">Iniciando os estudos para ser Dev</title><link href="http://localhost:4000/iniciando-estudos" rel="alternate" type="text/html" title="Iniciando os estudos para ser Dev" /><published>2019-04-12T14:00:00-03:00</published><updated>2019-04-12T14:00:00-03:00</updated><id>http://localhost:4000/iniciando-estudos</id><content type="html" xml:base="http://localhost:4000/iniciando-estudos">&lt;h2 id=&quot;por-onde-começar&quot;&gt;Por onde começar&lt;/h2&gt;
 
 &lt;p&gt;O mundo da tecnologia é fascinante e desafiador, vive em constante transformação e a cada dia surgem novas tecnologias e isso é ótimo! Mas, talvez para quem está iniciando, pode ser assustador e desanimador a quantidade de informações e tecnologias que se deve aprender, eu mesmo tive essa sensação em diversos momentos, por mais que eu estivesse estudando e aprendendo sobre algo novo, parecia que não havia evolução, pois a cada aprendizado abria-se um leque de novos assuntos e conceitos que faziam com que o objetivo parecesse sempre distante. Bom, ninguém disse que seria fácil.&lt;/p&gt;
 
-&lt;p&gt;Senti dificuldade de encontrar um ‘guia’ para saber o que deveria estudar ou quais habilidades precisaria desenvolver, por isso resolvi escrever aqui sobre o que encontrei e que tem me ajudade nessa jornada de estudos.&lt;/p&gt;
+&lt;p&gt;Senti dificuldade de encontrar um ‘guia’ para saber o que deveria estudar ou quais habilidades precisaria desenvolver, por isso resolvi escrever aqui sobre o que encontrei e que tem me ajudade nessa jornada de estudos. E o mais incrível de tudo, todos grátis!!!&lt;/p&gt;
+
+&lt;p&gt;Outro detalhe é que todos os conteúdos listados abaixo, estão em inglês, o que para mim é algo positivo, pois é uma forma de praticar e estar imerso no idioma que é indispensável nesta área e em muitas outras.&lt;/p&gt;
 
 &lt;h3 id=&quot;desenvolvedor-web-front-end&quot;&gt;Desenvolvedor Web Front-End&lt;/h3&gt;
 
@@ -53,46 +55,7 @@ Git &amp;amp; Github - &lt;a href=&quot;https://www.udacity.com/course/how-to-us
 
 &lt;p&gt;Aplicação pensada para guiar ou auxiliar a identificação de pontos de interesse, monumentos e pontos turísticos. Com sugestões de programas diários de passeios e identificação dos locais de interesse para turistas, através do uso de IA.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://elvisserrao.github.io/uTour/&quot;&gt;uTour&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;introdução&quot;&gt;Introdução&lt;/h4&gt;
-
-&lt;p&gt;A cidade de Salvador se desenvolveu em um contexto de grande influência da cultura europeia, africana e indígena e, por conta disso, o patrimônio histórico soteropolitano é diverso e de grande valor cultural. As antigas construções, monumentos e paisagens únicas atraem turistas de diversos lugares do Brasil e do mundo, afim de conhecer um pouco da história que está espalhada e preservada em cada ponto turístico da cidade de Salvador. Segundo &lt;a href=&quot;https://www.correio24horas.com.br/noticia/nid/carnaval-movimentara-r-18-bilhao-em-mais-de-50-setores-da-economia/&quot;&gt;reportagem publicada pelo jornal Correio&lt;/a&gt; em fevereiro deste ano, a cidade recebeu 9,3 milhões de turistas em 2018, superando o ano de 2014, em que Salvador foi uma das sedes da Copa do Mundo. A taxa média de ocupação hoteleira de 2018 – 61,8% - também foi maior do que a de 2017 (58%). Ainda segundo a reportagem, a época em que Salvador mais atrai turistas é quando ocorre a festa do Carnaval, o que significou uma movimentação econômica da ordem de 1,8 bilhão de reais, em 2018.&lt;/p&gt;
-
-&lt;h4 id=&quot;o-que-é-uma-startup&quot;&gt;O que é uma startup?&lt;/h4&gt;
-
-&lt;p&gt;Uma startup é uma organização desenhada para criar e experimentar soluções
-para um problema de um conjunto de pessoas.&lt;/p&gt;
-
-&lt;h4 id=&quot;produto-web&quot;&gt;Produto web&lt;/h4&gt;
-
-&lt;p&gt;Um produto web é qualquer sistema web que permite que um usuário seja
-reconhecido quando ele retornar para utilizar o sistema e que dados sejam
-armazenados pelo sistema. Em alguns casos esse tipo de sistema requer um
-cadastro mínimo feito com usuário e senha.&lt;/p&gt;
-
-&lt;h4 id=&quot;problema&quot;&gt;Problema&lt;/h4&gt;
-
-&lt;p&gt;Em contraste à grande quantidade de lugares para se visitar em Salvador está a deficiência no acesso a essas informações, que encontram-se espalhadas em sites muitas vezes incompletos e pouco intuitivos. Tal fato evidencia um empecilho no desenvolvimento do turismo na cidade, além de dificultar a visita do turista. Também é possível perceber que não há uma plataforma onde seja possível criar roteiros personalizados, de forma prática e que permita fazer um acompanhamento interativo, baseados no perfil de cada usuário, seja ele gastronômico, cultural, histórico, etc.&lt;/p&gt;
-
-&lt;h4 id=&quot;solução-produto-e-público-alvo&quot;&gt;Solução, produto e público alvo&lt;/h4&gt;
-
-&lt;p&gt;A proposta da plataforma Turismo SSA é trazer um ambiente onde informações como localização, aspectos históricos e culturais, avaliações, curiosidades e alertas dos pontos turísticos, de modo que sejam facilmente acessíveis e organizados, fomentando o turismo e a economia de Salvador. Para isso, um aplicativo mobile é proposto juntamente com um website, onde é possível personalizar roteiros baseados no perfil do usuário, realizar navegação por um mapa interativo, onde estão indicados pontos turísticos existentes nas proximidades, além da utilização de IA para identificação de pontos turísticos, monumentos, etc. Para cada ponto turístico, será possível ver avaliações de quem já frequentou, bem como criar relatos e postar fotos de sua experiência. Nosso público alvo é o turista de uma forma geral, o que engloba tanto brasileiros, como estrangeiros.&lt;/p&gt;
-
-&lt;h4 id=&quot;monetização&quot;&gt;Monetização&lt;/h4&gt;
-
-&lt;p&gt;A monetização do aplicativo se dará por meio de parcerias com restaurantes, bares, hotéis, pousadas, que desejem ter seu negócio divulgado, aumentando sua exposição e, consequentemente, o fluxo de clientes. Outra possibilidade de monetização seria através do Google Ads e mídias sociais (Facebook Ads, Instagram, YouTube). Além disso, levando em consideração o incentivo da prefeitura da cidade no sentido de transformar Salvador numa cidade inteligente e informatizada, essa plataforma propõe uma inovação no setor de turismo, ao fazer bom uso das tecnologias disponíveis para facilitar o acesso às informações do que há para se visitar na cidade.&lt;/p&gt;
-
-&lt;h4 id=&quot;smart-cities&quot;&gt;Smart Cities&lt;/h4&gt;
-
-&lt;p&gt;A definição de Cidades Inteligentes (Smart Cities),  envolve a junção da tecnologia de informação e comunicação com investimento em capital humano e social. Assim sendo, o projeto acima citado visa estimular a utilização da infraestrutura de comunicação implantada, convergindo para as necessidades locais, seja na área de mobilidade social, na saúde ou na educação.
-Partindo desse pressuposto e em meio às Startups já desenvolvidas e absorvidas pela Prefeitura de Salvador (Passaporte Salvador, Se7e Corporation e Ti Mob), nota-se claramente uma demanda existente a título de monetização para o nosso projeto. Afinal, a capital baiana encontra-se na lista das cidades mais inteligentes do mundo - única do nordeste a estar incluída no ranking de 165 smart cities conforme consta na &lt;a href=&quot;https://www.correio24horas.com.br/noticia/nid/salvador-e-a-unica-do-nordeste-em-ranking-mundial-de-smart-cities/&quot;&gt;reportagem realizada pelo jornal Correio&lt;/a&gt; em 2018 e para tanto, precisa estar preparada tanto para quem vem visitar, quanto para quem nela habita.&lt;/p&gt;
-
-&lt;h4 id=&quot;conclusão&quot;&gt;Conclusão&lt;/h4&gt;
-
-&lt;p&gt;Identificamos um setor com grande potencial, o Turismo, que é uma das maiores fontes de renda da nossa cidade, sendo responsável por movimentar diversos outros setores de produtos e serviços, refletindo na geração de empregos, captação de recursos governamentais, através do recolhimento de impostos, manutenção e restauração de patrimônios materiais (monumentos, casarões, igrejas, fortes, etc.) e incentivo à criação de projetos culturais através da música, teatro, arte, o que por sua vez, pode ser direcionado a inclusão social da população de baixa renda, que muitas vezes, não têm acesso a cursos e ao consumo destes produtos.   &lt;br /&gt;
-Com um objetivo ambicioso de impactar de forma grandiosa no turismo local, atendendo não só aos turistas brasileiros, como também estrangeiros. Pensamos numa solução para reunir as informações pertinentes de todo o polo cultural e turístico de nossa cidade numa plataforma intuitiva, prática e inovadora. Nesta plataforma, faremos uso das mais modernas tecnologias de Inteligência Artificial para auxiliar nossos usuários a criarem seus próprios roteiros e terem à disposição toda a informação necessária com sugestões personalizadas, a fim de ter a melhor experiência ao descobrir os encantos da nossa cidade.   &lt;br /&gt;
-É notória a demanda existente neste setor, visto que a Prefeitura Municipal de Salvador tem buscado soluções neste sentido, assim como será de interesse da iniciativa privada explorar o potencial econômico do nosso projeto. Esperamos impactar de forma significativa a maneira de fazer turismo e expandir nosso projeto para diversas outras cidades pelo mundo, dando todo suporte para nossos usuários e parceiros.&lt;/p&gt;</content><author><name>Elvis Serrão</name></author><summary type="html">uTour SSA</summary></entry><entry><title type="html">Explorando a vulnerabilidade do WPS</title><link href="http://localhost:4000/explorando-vulnerabilidade-wps" rel="alternate" type="text/html" title="Explorando a vulnerabilidade do WPS" /><published>2019-03-11T19:00:00-03:00</published><updated>2019-03-11T19:00:00-03:00</updated><id>http://localhost:4000/explorando-vulnerabilidade-wps</id><content type="html" xml:base="http://localhost:4000/explorando-vulnerabilidade-wps">&lt;p&gt;Neste post, vou mostrar como realizar um teste de segurança em redes sem fio, que possuam o WPS ativo. Alguns roteadores possuem uma vulnerabilidade que permite realizar um ataque de brute force para encontrar o PIN WPS, uma vez identificado o PIN, é feita a autenticação, e então, temos acesso a senha da rede wireless. Para realizar o teste, utilizei meu roteador e criei uma rede apenas para este fim.&lt;/p&gt;
+&lt;p&gt;Conheça a plataforma: &lt;a href=&quot;https://elvisserrao.github.io/uTour/&quot;&gt;uTour&lt;/a&gt;&lt;/p&gt;</content><author><name>Elvis Serrão</name></author><summary type="html">uTour SSA</summary></entry><entry><title type="html">Explorando a vulnerabilidade do WPS</title><link href="http://localhost:4000/explorando-vulnerabilidade-wps" rel="alternate" type="text/html" title="Explorando a vulnerabilidade do WPS" /><published>2019-03-11T19:00:00-03:00</published><updated>2019-03-11T19:00:00-03:00</updated><id>http://localhost:4000/explorando-vulnerabilidade-wps</id><content type="html" xml:base="http://localhost:4000/explorando-vulnerabilidade-wps">&lt;p&gt;Neste post, vou mostrar como realizar um teste de segurança em redes sem fio, que possuam o WPS ativo. Alguns roteadores possuem uma vulnerabilidade que permite realizar um ataque de brute force para encontrar o PIN WPS, uma vez identificado o PIN, é feita a autenticação, e então, temos acesso a senha da rede wireless. Para realizar o teste, utilizei meu roteador e criei uma rede apenas para este fim.&lt;/p&gt;
 
 &lt;p&gt;Para realizar esse teste, utilizei:&lt;/p&gt;
 
@@ -163,7 +126,7 @@ $ sudo make install
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;https://raw.githubusercontent.com/elvisserrao/elvisserrao.github.io/master/_site/assets/images/1.png&quot; alt=&quot; &quot; /&gt;
+  &lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*RIltC4xzvTb0XFDRoBm-4g.png&quot; alt=&quot; &quot; /&gt;
   &lt;figcaption style=&quot;display: block; text-align: center;&quot;&gt;Neste caso, temos a wlp6s0 como interface wireless.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -173,7 +136,7 @@ $ sudo make install
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;https://raw.githubusercontent.com/elvisserrao/elvisserrao.github.io/master/_site/assets/images/2.png&quot; alt=&quot; &quot; /&gt;
+  &lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*qFn3xDZFADmTsBxS30qV3g.png&quot; alt=&quot; &quot; /&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Na saída do comando acima, está descrito entre parenteses a informação de que foi habilitado o modo monitor na interface virtual “mon0”. Além disso, foram encontrados 5 processos que podem causar algum bug ao utilizar a interface em modo monitor, para garantir que não terá nenhum problema, esses processos devem ser encerrados, para isso basta usar o comando kill, seguido dos PID’s dos processos listados.&lt;/p&gt;
@@ -189,7 +152,7 @@ $ sudo make install
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;https://raw.githubusercontent.com/elvisserrao/elvisserrao.github.io/master/_site/assets/images/3.png&quot; alt=&quot; &quot; /&gt;
+  &lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*3ixmC1M0Pt48FZ0f5pXUBw.png&quot; alt=&quot; &quot; /&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Após ter encerrado os processos que podem causar problemas no funcionamento do airmon-ng e desabilitar a interface wireless que não será utilizada, vamos ao próximo passo, localizar a rede alvo. Para isso, utilize o comando “wash” que lista somente redes com WPS ativo.&lt;/p&gt;
@@ -198,7 +161,7 @@ $ sudo make install
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;https://raw.githubusercontent.com/elvisserrao/elvisserrao.github.io/master/_site/assets/images/4.png&quot; alt=&quot; &quot; /&gt;
+  &lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*SeCz_eM4t9ivBPUTBpMS0Q.png&quot; alt=&quot; &quot; /&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Identificada a rede alvo, passe os parâmetros necessários para executar o Reaver e PixieWPS, com o seguinte comando:&lt;/p&gt;
@@ -207,7 +170,7 @@ $ sudo make install
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;https://raw.githubusercontent.com/elvisserrao/elvisserrao.github.io/master/_site/assets/images/5.png&quot; alt=&quot; &quot; /&gt;
+  &lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*KZmJRaJY7D5QLtB2iQmz9g.png&quot; alt=&quot; &quot; /&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Os parâmetros passados foram:&lt;/p&gt;

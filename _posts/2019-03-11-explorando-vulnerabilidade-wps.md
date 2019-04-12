@@ -69,7 +69,7 @@ Agora Vamos alterar o modo de funcionamento da interface wireless.
 	$ iwconfig
 
 <figure>
-  <img src="https://raw.githubusercontent.com/elvisserrao/elvisserrao.github.io/master/_site/assets/images/1.png" alt=" "/>
+  <img src="https://cdn-images-1.medium.com/max/800/1*RIltC4xzvTb0XFDRoBm-4g.png" alt=" "/>
   <figcaption style="display: block; text-align: center;">Neste caso, temos a wlp6s0 como interface wireless.</figcaption>
 </figure>
 
@@ -78,7 +78,7 @@ Após identificar a interface wireless, altere o modo de funcionamento para o mo
 	# airmon-ng start wlp6s0
 
 <figure>
-  <img src="https://raw.githubusercontent.com/elvisserrao/elvisserrao.github.io/master/_site/assets/images/2.png" alt=" "/>
+  <img src="https://cdn-images-1.medium.com/max/800/1*qFn3xDZFADmTsBxS30qV3g.png" alt=" "/>
 </figure>
 
 Na saída do comando acima, está descrito entre parenteses a informação de que foi habilitado o modo monitor na interface virtual “mon0”. Além disso, foram encontrados 5 processos que podem causar algum bug ao utilizar a interface em modo monitor, para garantir que não terá nenhum problema, esses processos devem ser encerrados, para isso basta usar o comando kill, seguido dos PID’s dos processos listados.
@@ -92,7 +92,7 @@ Agora desabilite a interface wireless “wlp6s0”, para que não haja problemas
 	# ifconfig wlp6s0 down
 
 <figure>
-  <img src="https://raw.githubusercontent.com/elvisserrao/elvisserrao.github.io/master/_site/assets/images/3.png" alt=" "/>
+  <img src="https://cdn-images-1.medium.com/max/800/1*3ixmC1M0Pt48FZ0f5pXUBw.png" alt=" "/>
 </figure>
 
 Após ter encerrado os processos que podem causar problemas no funcionamento do airmon-ng e desabilitar a interface wireless que não será utilizada, vamos ao próximo passo, localizar a rede alvo. Para isso, utilize o comando “wash” que lista somente redes com WPS ativo.
@@ -100,7 +100,7 @@ Após ter encerrado os processos que podem causar problemas no funcionamento do 
 	# wash -i mon0
 
 <figure>
-  <img src="https://raw.githubusercontent.com/elvisserrao/elvisserrao.github.io/master/_site/assets/images/4.png" alt=" "/>
+  <img src="https://cdn-images-1.medium.com/max/800/1*SeCz_eM4t9ivBPUTBpMS0Q.png" alt=" "/>
 </figure>
 
 Identificada a rede alvo, passe os parâmetros necessários para executar o Reaver e PixieWPS, com o seguinte comando:
@@ -108,7 +108,7 @@ Identificada a rede alvo, passe os parâmetros necessários para executar o Reav
 	# reaver -i mon0 -b E8:CC:18:BE:01:AC -c 6 -vvv -K 1
 
 <figure>
-  <img src="https://raw.githubusercontent.com/elvisserrao/elvisserrao.github.io/master/_site/assets/images/5.png" alt=" "/>
+  <img src="https://cdn-images-1.medium.com/max/800/1*KZmJRaJY7D5QLtB2iQmz9g.png" alt=" "/>
 </figure>
 
 Os parâmetros passados foram: 

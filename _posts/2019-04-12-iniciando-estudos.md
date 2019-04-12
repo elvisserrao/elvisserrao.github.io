@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Iniciando os estudos"
+title:  "Iniciando os estudos para ser Dev"
 date:   2019-04-12 14:00:00 -0300
 ---
 
