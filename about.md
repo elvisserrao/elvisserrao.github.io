@@ -6,7 +6,7 @@ permalink: /sobremim/
 
 Discípulo de Jesus Cristo
 
-Aspirante a Full Stack dev
+Desenvolvedor Back-End
 
 Adepto do [Bushido](https://pt.wikipedia.org/wiki/Bushido)
 
