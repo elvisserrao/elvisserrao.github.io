@@ -15,10 +15,18 @@ Amante de café
 Grande fã de Formula 1
 
 
-## Habilidades
+## Conhecimentos & Habilidadades
 
 - HTML
 - CSS
+- Ruby
+- Ruby on Rails
+- React
+- PHP
+- Yii 2
+- SqlServer
+- PostgreSql
 - JavaScript (jQuery)
 - GIT
+- GatsbyJS
 - Jekyll
