@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Como utilizar o ZSH"
-date:   2019-06-20 19:00:00 -0300
+date:   2029-06-20 19:00:00 -0300
 ---
 
 # ZSH
