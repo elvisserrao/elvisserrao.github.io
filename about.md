@@ -17,16 +17,11 @@ Grande fã de Formula 1
 
 ## Conhecimentos & Habilidadades
 
-- HTML
+- HTML, YAML
 - CSS
-- Ruby
-- Ruby on Rails
-- React
-- PHP
-- Yii 2
-- SqlServer
-- PostgreSql
-- JavaScript (jQuery)
-- GIT
-- GatsbyJS
+- Ruby, Ruby on Rails
 - Jekyll
+- JavaScript, jQuery, ReactJS, GatsbyJS
+- PHP, Yii 2
+- SQLServer, PostgreSQL
+- GIT
