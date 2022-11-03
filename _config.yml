@@ -1,0 +1,21 @@
+# Site settings
+title: ehsj.dev
+author: ehsj.dev
+description:
+# baseurl: "/particle" # the subpath of your site, e.g. /blog
+url: http://ehsj.dev # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+
+# User settings
+username: Elvis Serrão
+user_description:
+user_title: Desenvolvedor Fullstack
+email: ehsj@ehsj.dev
+twitter_username: Ehsj
+linkedin_username: elvis-serrão-1b0451105
+github_username:  elvisserrao
+
+# Google-analytics
+google-analytics:
+  id: UA-137390428-1
+
+exclude: ['package.json', 'src' , 'node_modules']
