@@ -10,7 +10,7 @@ O mundo da tecnologia é fascinante e desafiador, vive em constante transformaç
 
 Senti dificuldade de encontrar um 'guia' para saber o que deveria estudar ou quais habilidades precisaria desenvolver, por isso resolvi escrever aqui sobre o que encontrei e que tem me ajudade nessa jornada de estudos. E o mais incrível de tudo, todos grátis!!!
 
-Outro detalhe é que todos os conteúdos listados abaixo, estão em inglês, o que para mim é algo positivo, pois é uma forma de praticar e estar imerso no idioma que é indispensável nesta área e em muitas outras.
+Outro detalhe é que todos os conteúdos listados abaixo, estão em inglês, o que para mim é algo positivo, pois é uma forma de praticar e estar imerso no idioma que é indispensável nesta área.
 
 ### Desenvolvedor Web Front-End
 
