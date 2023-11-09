@@ -4,24 +4,22 @@ title: Sobre mim
 permalink: /sobremim/
 ---
 
-Discípulo de Jesus Cristo
-
-Desenvolvedor Back-End
-
 Adepto do [Bushido](https://pt.wikipedia.org/wiki/Bushido)
 
 Amante de café
 
-Grande fã de Formula 1
+Entusiasta de Formula 1
 
+Defensor da liberdade
+
+Desenvolvedor Fullstack
 
 ## Conhecimentos & Habilidadades
 
-- HTML, YAML
-- CSS
-- Ruby, Ruby on Rails
-- Jekyll
-- JavaScript, jQuery, ReactJS, GatsbyJS
+- Ruby, Ruby on Rails, RSpec
+- Java, Spring, Struts, JUnit
+- JavaScript, jQuery, ReactJS, GatsbyJS, VueJS
 - PHP, Yii 2
-- SQLServer, PostgreSQL
+- SQLServer, PostgreSQL, Oracle
+- Heroku, AWS
 - GIT
